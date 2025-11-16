@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.figma.com)",
+      "WebFetch(domain:youtu.be)",
+      "Bash(npm install:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(curl:*)",
+      "Bash(npx playwright test:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

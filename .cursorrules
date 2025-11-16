@@ -1,0 +1,21 @@
+# Cursor IDE Rules for RCAP
+
+This file provides quick reference for Cursor IDE. For comprehensive guidance, see:
+`.cursor/rules/AI_ASSISTANT_PROMPT.md`
+
+## Quick Rules
+
+1. **Always read** `memory/constitution.md` before making decisions
+2. **Follow SpecKit workflow**: Epic → Spec → Plan → Tasks → Implementation
+3. **Check epic specs** in `specs/XXX-feature-name/spec.md` before coding
+4. **No mapping/GIS features** - MVP scope only
+5. **Low-bandwidth first** - Optimize for connectivity constraints
+6. **Role-based security** - Enforce hierarchical permissions
+
+## Key Files
+
+- Constitution: `memory/constitution.md`
+- Implementation Plan: `IMPLEMENTATION_PLAN.md`
+- Epic Specs: `specs/XXX-feature-name/spec.md`
+- Full Guide: `.cursor/rules/AI_ASSISTANT_PROMPT.md`
+
