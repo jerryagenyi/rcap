@@ -1,56 +1,43 @@
 # RCAP Documentation
 
-## 📖 Documentation Structure
+This folder contains general project documentation for the RCAP (Risk Communication Activity Platform).
 
-This folder contains comprehensive documentation for RCAP (Risk Communication Activity Platform).
+## Documents
 
-### Quick Navigation
+### Project Overview
+- `../README.md` - Main project README with current status
+- `QUICK_START.md` - Quick start guide for the project
+- `CONTRIBUTING.md` - Guidelines for contributing to RCAP
 
-| Document | Audience | Purpose |
-|----------|----------|---------|
-| [**README.md**](../README.md) | All | Project overview and quick start |
-| [**QUICK_START.md**](./QUICK_START.md) | New Developers | Get running in 15 minutes |
-| [**DEVELOPER_SETUP.md**](./DEVELOPER_SETUP.md) | Developers | Complete development environment setup |
-| [**DOCKER_PRACTICES.md**](./DOCKER_PRACTICES.md) | Developers | Docker volumes, data management |
-| [**CONTRIBUTING.md**](./CONTRIBUTING.md) | Contributors | Code standards and workflow |
-| [**DEPLOYMENT.md**](./DEPLOYMENT.md) | DevOps | Production deployment guide |
-| [**TROUBLESHOOTING.md**](./TROUBLESHOOTING.md) | All | Common issues and solutions |
-| [**API_DOCUMENTATION.md**](./API_DOCUMENTATION.md) | Frontend Devs | API reference and examples |
+### Requirements & Planning
+- `REQUIREMENTS_SPECIFICATION.md` - Complete functional requirements
+- `REQUIREMENTS_CHECKLIST.md` - Verification checklist for requirements
+- `IMPLEMENTATION_READINESS_SUMMARY.md` - Current prototype status and next steps
+- `DEVELOPMENT_READINESS_ASSESSMENT.md` - Detailed assessment of development readiness
 
-### For Different Team Members
+### Development Guides
+- `DEVELOPER_SETUP.md` - Developer environment setup guide
+- `DOCKER_PRACTICES.md` - Docker best practices for RCAP
 
-#### 🚀 **New Developer?**
-Start here: [QUICK_START.md](./QUICK_START.md) → [DEVELOPER_SETUP.md](./DEVELOPER_SETUP.md)
+### Prototype-Specific Documentation
+- See `../firebase-studio/` folder for Firebase Studio prototype documentation
+- Implementation prompts and build guides specific to the current prototype
 
-#### 🔧 **DevOps Engineer?**
-Read: [DEPLOYMENT.md](./DEPLOYMENT.md) → [DOCKER_PRACTICES.md](./DOCKER_PRACTICES.md)
+## Current Status
 
-#### 📊 **Product Manager?**
-Review: [../project-management/PRD.md](../project-management/PRD.md) → [../IMPLEMENTATION_PLAN.md](../IMPLEMENTATION_PLAN.md)
+**Phase**: UI/UX Prototype (85% complete)
+**Next**: Execute Firebase AI implementation prompts (7-10 weeks)
+**Goal**: Production-ready UI/UX for Vue 3 + Quasar development
 
-#### 🎨 **UI/UX Designer?**
-Check: [../project-management/technical-specification.md](../project-management/technical-specification.md)
+## Documentation Structure
 
-#### 🏥 **Public Health Official?**
-Read: [../specs/](../specs/) for feature documentation
+```
+/
+├── README.md                    # Main project status
+├── docs/                        # General documentation (this folder)
+├── firebase-studio/             # Prototype-specific documentation
+├── design/                      # Design system and branding
+└── project-management/           # Project planning documents
+```
 
-## Documentation Philosophy
-
-RCAP follows **SpecKit-driven development**. All documentation should be:
-
-1. **Action-oriented** - Clear steps to follow
-2. **Context-rich** - Explain the "why" behind decisions
-3. **Role-specific** - Target the right audience
-4. **Version-controlled** - Keep docs in sync with code
-5. **Accessible** - Consider low-bandwidth users
-
-## Keeping Documentation Updated
-
-- Update docs **before** updating code
-- Include documentation in pull request reviews
-- Add docs for new features in the same PR
-- Review and update monthly
-
----
-
-💡 **Tip**: Bookmark this page. Each document links to others for deeper dives into specific topics.
+For prototype improvements, see: `firebase-studio/FIREBASE_AI_IMPLEMENTATION_PROMPTS.md`

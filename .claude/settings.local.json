@@ -11,7 +11,8 @@
       "mcp__MCP_DOCKER__browser_take_screenshot",
       "mcp__MCP_DOCKER__browser_resize",
       "mcp__MCP_DOCKER__browser_snapshot",
-      "mcp__MCP_DOCKER__browser_click"
+      "mcp__MCP_DOCKER__browser_click",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
