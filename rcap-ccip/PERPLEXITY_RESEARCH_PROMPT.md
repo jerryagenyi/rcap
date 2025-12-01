@@ -1,10 +1,12 @@
 # Perplexity AI Research Prompt: Disaster Semiotics Validation
 
+**[DO NOT DELETE] - This prompt document is maintained for future research validation and reference.**
+
 **Context for Perplexity:** You previously analyzed RCAP as a health communication coordination platform (Firebase prototype with organizational hierarchy, activity management, dashboards). The project has since evolved to integrate **computational disaster semiotics** as its core innovation. This prompt asks you to validate the new theoretical foundation and research approach.
 
 ---
 
-## Research Request: Disaster Semiotics & Computational Semiotic Intelligence
+## Optimized Research Request: Disaster Semiotics & Computational Semiotic Intelligence
 
 ### Background Context
 
@@ -22,72 +24,62 @@ RCAP (Risk Communication Activity Platform) is being repositioned as a **Crisis 
 - **Approach:** Programme-first (research validation) → Product (commercialization)
 - **Target:** Public health crisis communication (outbreaks, vaccination campaigns)
 
+**STRATEGIC APPROACH:** Programme-first (grant-funded validation) → Product (B2G SaaS)  
+**TECHNICAL STACK:** Vue/Quasar + Laravel + PostgreSQL/pgvector + Python/FastAPI ML  
+**TARGET:** Public health crisis communication (outbreaks, vaccination campaigns)  
+**PILOTS:** Nigeria, UK, Germany (18-24 months)
+
 ---
 
 ## Research Questions
 
-### 1. Theoretical Foundation Validation
+### Q1: DISASTER SEMIOTICS RESEARCH LANDSCAPE (2020-2025)
 
-**Question:** What is the current state of disaster semiotics research, and how does it relate to crisis communication in public health contexts?
-
-**Specific Areas:**
-- Recent academic developments in disaster semiotics (2020-2025)
-- Application of semiotic theory to health crisis communication
+- Academic developments in disaster/crisis semiotics
+- Semiotic theory applied to health crisis communication
 - Research on meaning breakdown during emergencies
 - Cross-cultural communication failures in health contexts
-- Relationship between semiotics and behavioral compliance in health crises
+- Behavioral compliance linked to semiotic factors
 
 **What to Look For:**
-- Established frameworks or theories we should reference
+- Established frameworks or theories we should reference (e.g., Semiotic Cultural Psychology Theory, Culture-Centred Approach)
 - Gaps in current research that our approach addresses
 - Academic precedents for computational semiotics in crisis contexts
 - Validation of our "semiotic breakdown" hypothesis
 
-### 2. Computational Semiotics & AI/ML Applications
+### Q2: COMPUTATIONAL SEMIOTICS & AI/ML
 
-**Question:** What is the state of applying AI/ML to semiotic analysis, particularly for crisis communication or public health contexts?
-
-**Specific Areas:**
-- Computational semiotics research and applications
-- NLP/ML approaches to analyzing meaning-making systems
-- Pattern recognition in communication failures
+- State of computational semiotics research
+- NLP/ML for analyzing meaning-making systems
 - Predictive models for message effectiveness
-- Cross-cultural semantic analysis using ML
+- Cross-cultural semantic analysis using transformers/BERT
+- Existing tools/platforms in this space
 
 **What to Look For:**
-- Existing computational semiotics tools or platforms
 - ML approaches to semiotic pattern recognition
-- Academic research on AI-powered meaning analysis
-- Technical precedents for our approach
+- Technical precedents (e.g., ClinicalBERT, Medical mT5, multilingual medical LLMs)
+- Cultural bias in LLMs and cultural prompting methodologies
 - Validation that our ML + semiotics combination is novel
 
-### 3. Programme-First Research Strategy Validation
+### Q3: RESEARCH-TO-COMMERCIALIZATION PATHWAYS
 
-**Question:** How do research programmes in computational linguistics, disaster studies, or public health typically structure validation phases before commercialization?
-
-**Specific Areas:**
-- Research-to-commercialization pathways in similar domains
-- Grant funding opportunities for computational semiotics research
-- Academic validation requirements for novel computational approaches
-- Pilot study methodologies for validating AI/ML systems in public health
-- Research programme structures that enable both academic and commercial outcomes
+- Successful models in computational linguistics/public health
+- Grant funding: UKRI, Wellcome Trust, EU Horizon Europe, NIHR, Eureka
+- Pilot study methodologies for AI in health contexts
+- Academic validation for novel computational approaches
 
 **What to Look For:**
-- Successful research programme models we should emulate
-- Grant funding sources aligned with our approach
-- Academic publication pathways for computational semiotics
+- Research programme structures that enable both academic and commercial outcomes
+- Grant funding opportunities aligned with our approach
 - Validation methodologies for AI systems in health contexts
-- Research programme structures that support both PhD research and product development
+- Programme structures that support both research and product development
 
-### 4. Competitive Landscape & Differentiation
+### Q4: COMPETITIVE LANDSCAPE
 
-**Question:** What existing solutions address crisis communication, and how does a semiotic intelligence approach differentiate from current methods?
-
-**Specific Areas:**
-- Crisis communication platforms (Everbridge, Noggin, etc.)
-- Health information systems (DHIS2, etc.)
-- Translation/localization services for health contexts
-- AI-powered communication analysis tools
+- Crisis platforms: Everbridge, Noggin
+- Health systems: DHIS2
+- AI communication tools
+- Translation/localization services
 - Academic research projects in similar domains
 
 **What to Look For:**
@@ -96,19 +88,15 @@ RCAP (Risk Communication Activity Platform) is being repositioned as a **Crisis 
 - Validation that our "predictive semiotic assessment" is unique
 - Academic projects that might be similar or complementary
 
-### 5. Implementation Considerations & Emerging Trends
+### Q5: EMERGING TRENDS (2023-2025)
 
-**Question:** What recent developments (2023-2025) in disaster communication, computational linguistics, or public health technology should we consider?
-
-**Specific Areas:**
-- Recent research on communication failures during COVID-19, climate disasters, etc.
-- Emerging AI/ML capabilities relevant to semiotic analysis
-- New frameworks for understanding cross-cultural communication
-- Regulatory or ethical considerations for AI in health communication
-- Technology trends that might impact our approach
+- COVID-19 communication failure research
+- Emerging AI/ML for semiotic analysis
+- EU AI Act implications for health AI
+- Cross-cultural NLP developments
 
 **What to Look For:**
-- New research we should incorporate
+- Recent research we should incorporate
 - Emerging technologies or methods we should consider
 - Regulatory or ethical considerations we haven't addressed
 - Recent case studies that validate or challenge our approach
@@ -191,4 +179,3 @@ Please:
 ---
 
 **Thank you for conducting this comprehensive research. Your analysis will help validate our theoretical foundation and ensure we're building on solid academic ground while addressing real-world communication failures in health crises.**
-

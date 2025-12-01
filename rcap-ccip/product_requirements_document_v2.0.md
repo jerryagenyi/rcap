@@ -1,10 +1,10 @@
 # RCAP Product Requirements Document (PRD)
 
-Version: 2.0
+Version: 2.1
 
-Date: November 30, 2025
+Date: December 1, 2025
 
-Status: Draft for Review
+Status: Updated with Research Validation
 
 Platform Name: RCAP – Crisis Communication Intelligence Platform
 
@@ -44,7 +44,13 @@ To prevent preventable deaths from communication failures by building the world'
 
 ### 1.4 Competitive Positioning
 
-Our **Moat:** Irreplicable semiotic pattern database that grows with every deployment through federated learning architecture. We are the only platform that is predictive and semiotic.
+Our **Moat:** Irreplicable semiotic pattern database that grows with every deployment through federated learning architecture. We are the only platform that is **predictive**, **semiotic**, and **systematically learning** across crisis contexts.
+
+**Key Differentiation:**
+- **Everbridge:** Crisis alerting & notifications—delivers messages quickly but doesn't analyze whether messages will be understood/acted upon
+- **Noggin:** Resilience & incident management—integrated workspace with ISO templates and collaboration tools, but logistics focus with no meaning-making capability or cross-cultural learning
+- **DHIS2:** Health data management—tracks outcomes but not causes, no communication analysis or predictive capability
+- **RCAP:** Predictive semiotic assessment + organizational coordination + systematic cross-contextual learning
 
 
 
@@ -96,7 +102,7 @@ Our **Moat:** Irreplicable semiotic pattern database that grows with every deplo
 
     * *Requirement:* **Phase 1 (MVP - Rule-Based):** Manual pattern matching, risk scoring, display predicted failure points, recommend adaptations.
 
-    * *Acceptance Criteria:* Input message content + target context; receive risk assessment within 5 seconds; see 3-5 specific predicted failure points; get 3-5 actionable recommendations; view similar successful campaigns; user can apply recommendations (one-click).
+    * *Acceptance Criteria:* Input message content + target context; receive risk assessment within 5 seconds; see 3-5 specific predicted failure points; get 3-5 actionable recommendations; view similar successful campaigns; user can apply recommendations (one-click). System must provide human-reviewable confidence scores with each prediction, enabling human-in-the-loop oversight consistent with EU AI Act transparency requirements.
 
     * *Phase 2 (Post-MVP):* ML-Powered prediction, confidence intervals, automated pattern extraction.
 
@@ -173,6 +179,7 @@ Our **Moat:** Irreplicable semiotic pattern database that grows with every deplo
 | **Usability** | Mobile-First (PWA); WCAG 2.1 AA compliant; Offline Capability | Accessibility and field-based work. |
 
 | **Reliability** | 99.5% Uptime (MVP); Daily Backup; RTO < 4 hours | Crisis communication must be reliable. |
+| **Regulatory Compliance** | EU AI Act "limited risk" classification | Minimize compliance burden; transparency-by-design |
 
 
 
@@ -209,6 +216,8 @@ Our **Moat:** Irreplicable semiotic pattern database that grows with every deplo
 * **Risk:** Pilot partner withdrawal. **Mitigation:** Multiple pilots, strong relationships.
 
 * **Risk:** AI accuracy insufficient. **Mitigation:** Start rule-based, validate extensively, human-in-the-loop design.
+
+* **Risk:** EU AI Act compliance evolution. **Mitigation:** Compliance flexibility in architecture; quarterly regulatory review; design for "limited risk" classification with transparency-by-design.
 
 
 

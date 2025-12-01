@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Version: 1.0 | Date: November 30, 2025 | Organization: [Your Organization Name]
+Version: 1.1 | Date: December 1, 2025 | Organization: [Your Organization Name]
 
 
 
@@ -58,6 +58,8 @@ We're the only platform that:
 
 | Everbridge (crisis alerts) | Delivers messages fast, doesn't analyze if they'll be understood. |
 
+| Noggin (resilience management) | Coordinates response logistics, doesn't analyze whether messages make meaning across cultural contexts. |
+
 | Ushahidi (crisis mapping) | Reactive crowdsourcing, no prediction or coordination. |
 
 | Translation Services | Cultural meaning adaptation, not just word translation. |
@@ -112,7 +114,7 @@ The platform addresses failures in public health, social cohesion (e.g., UK riot
 
 * **Use of Funds:** Platform development, pilot field operations, research partnerships, and operations.
 
-* **Target Funders:** UKRI (Disaster Resilience), Wellcome Trust (Innovation), EU Horizon Europe, Gates Foundation.
+* **Target Funders:** UKRI (Disaster Resilience), Wellcome Trust (Climate Impacts/Mental Health), EU Horizon Europe (Health Cluster), NIHR AI Award, Eureka Disaster Resilience Programme, Gates Foundation.
 
 
 
@@ -120,7 +122,7 @@ The platform addresses failures in public health, social cohesion (e.g., UK riot
 
 * **Why This:** The root problem of communication failure is universal and costly; no existing solution is predictive or semiotic.
 
-* **Why Now:** Post-COVID urgency, UK focus on misinformation (2024 riots), AI/ML maturity, global health equity demands.
+* **Why Now:** Post-COVID urgency, UK focus on misinformation (2024 riots), AI/ML maturity, global health equity demands. WHO/Europe 2025 research confirms AI can support tailoring messages to specific populations and enhance reach to multilingual/multicultural settings—but calls for strong ethical principles to protect public trust. RCAP addresses this with ethics-by-design architecture.
 
 * **Why Us:** **Domain credibility** (NCDC field experience), **Theoretical foundation** (Disaster Semiotics), **Strategic positioning** (UK base, CIVALABS, academic pathway).
 

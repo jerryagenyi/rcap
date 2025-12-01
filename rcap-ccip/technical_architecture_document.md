@@ -2,11 +2,11 @@
 
 ## Crisis Communication Intelligence Platform
 
-Version: 1.0
+Version: 1.1
 
-Date: November 30, 2025
+Date: December 1, 2025
 
-Status: Draft for Technical Review
+Status: Updated with Research Validation
 
 Audience: Technical co-founder, development team, data protection authorities, technical partners
 
@@ -126,11 +126,11 @@ Government agencies (WHO, NCDC) have strict requirements for **data sovereignty*
 
 * **Functionality:**
 
-    1.  **Message Encoding:** Use multilingual BERT embeddings for semantic understanding.
+    1.  **Message Encoding:** Consider leveraging multilingual medical corpus (MMedC) and Medical mT5 architecture as foundation for domain adaptation rather than general-purpose BERT. Use multilingual BERT embeddings for semantic understanding with cultural prompting methodology for context-aware recommendations.
 
     2.  **Pattern Matching:** Use `pgvector` in PostgreSQL for vector similarity search of the message embedding against the Pattern DB.
 
-    3.  **Risk Prediction:** Ensemble model (Neural Network + Rule-based logic) combines pattern matches, message features (e.g., metaphor density), and context features (e.g., historical trust index) to generate a **Risk Score (0-100)**.
+    3.  **Risk Prediction:** Ensemble model (Neural Network + Rule-based logic) combines pattern matches, message features (e.g., metaphor density), and context features (e.g., historical trust index) to generate a **Risk Score (0-100)**. Implement cultural prompting methodology for context-aware recommendations, as validated by research on cultural alignment in LLMs.
 
     4.  **Recommendation Generation:** Returns specific, validated adaptations from the Pattern DB.
 
@@ -143,6 +143,8 @@ Government agencies (WHO, NCDC) have strict requirements for **data sovereignty*
 * Fetches anonymized/validated `field_reports` data.
 
 * Retrains `SemioticRiskPredictor` model.
+
+* **Accuracy threshold:** Minimum 75% validation accuracy before production deployment. Human-in-the-loop mandatory for recommendations below 70% confidence threshold.
 
 * Deploys new model (if accuracy threshold > 75% met) via MLflow/Torch.
 
@@ -157,6 +159,16 @@ Government agencies (WHO, NCDC) have strict requirements for **data sovereignty*
 * **Encryption:** TLS 1.3 in transit, TDE/AES-256 at rest, HashiCorp Vault for key management.
 
 * **Vulnerabilities:** Input validation (prevents SQLi, XSS), Rate Limiting (DoS/Brute Force protection), Regular SAST/DAST scans (Trivy, Composer Audit).
+
+### 5.6 Regulatory Compliance Architecture
+
+* **EU AI Act Classification:** Design for "limited risk" category with transparency obligations rather than "high-risk" requiring extensive compliance.
+
+* **Explainable AI Features:** Implement human-reviewable recommendations with confidence scores and reasoning explanations for all AI-generated assessments.
+
+* **Audit Trail:** Maintain comprehensive audit trail for all AI-generated recommendations per GDPR/NDPR requirements, including timestamp, user, input context, and output reasoning.
+
+* **Compliance Flexibility:** Build architecture with compliance flexibility to adapt to evolving EU AI Act guidance and regulatory updates. Quarterly regulatory review process.
 
 
 

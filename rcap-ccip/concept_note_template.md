@@ -2,11 +2,11 @@
 
 ## Computational Disaster Semiotics
 
-Version: 1.0
+Version: 1.1
 
-Date: November 30, 2025
+Date: December 1, 2025
 
-Status: Template for Fundraising
+Status: Updated with Research Validation
 
 
 
@@ -46,6 +46,8 @@ During health crises (COVID-19, cholera, Lassa Fever), messages are often receiv
 
 Current solutions (translation, alert systems, data platforms like DHIS2) address speed and logistics, but **fail to address meaning**. They track *what* happened, not *why* communication succeeded or failed.
 
+Post-COVID systematic reviews confirm the gap—governments experienced "difficulties in effective communication" driven by cultural and contextual misalignment rather than technical delivery failures (Okuhara et al., 2025, JMIR Infodemiology). This validates the need for semiotic intelligence that addresses meaning-making, not just message delivery.
+
 ### 2.4 Cost & Consequences
 
 * **Lives lost:** Preventable deaths from non-compliance with health guidance.
@@ -72,6 +74,7 @@ We are building a **Crisis Communication Intelligence Platform** (CCIP) that int
     * Health agency plans campaign → Inputs message + target context (culture, language, trust level).
     * AI analyzes against pattern database → Identifies **semiotic risks** (e.g., individualistic framing conflict, authority mismatch).
     * Generates **actionable recommendations** (e.g., "Reframe as family protection," "Use community leader messenger").
+    * **Regulatory Compliance:** Designed for EU AI Act "limited risk" classification with built-in transparency and human oversight mechanisms.
 
 * **Phase 2: Field Execution (Coordination & Data Capture)**
     * Field officers use platform (mobile/PWA) to: execute activities, capture evidence, and report structured data on **communication effectiveness** (e.g., "Message understanding score: 4/10," "Barriers encountered: religious objections").
@@ -209,7 +212,11 @@ Three rigorous pilots will validate the core hypothesis and build the initial da
 
 ***[Customize this section heavily per funder - example for UKRI Disaster Resilience]***
 
-This project directly addresses UKRI's priority on **"improving society's ability to anticipate, prepare for, respond to and recover from disasters"** by focusing on communication as critical infrastructure. It is a UK-based, research-backed innovation with a clear pathway to a global, scalable B2G commercialization model, aligning with the UK's Innovator economy goals.
+**UKRI Disaster Resilience:** This project directly addresses the UKRI's priority on **"improving society's ability to anticipate, prepare for, respond to and recover from disasters"** by focusing on communication as critical infrastructure. It is a UK-based, research-backed innovation with a clear pathway to a global, scalable B2G SaaS commercialization model, aligning with the UK's Innovator economy goals.
+
+**NIHR AI Award:** Aligns with NIHR AI Award priorities for robust testing of AI in health and care contexts with clear validation methodology. The programme-first approach ensures rigorous evidence generation before deployment, addressing NIHR's emphasis on safety and effectiveness validation.
+
+**Wellcome Trust:** Addresses Wellcome's focus on generating "context-specific evidence using community knowledge" with "actionable policy outcomes," particularly relevant to climate-health intersections and mental health communication during crises.
 
 
 

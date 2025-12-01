@@ -1,8 +1,8 @@
 # Product Owner's Guide: Crisis Communication Intelligence Platform
 
-**Version:** 1.0  
-**Date:** November 30, 2025  
-**Status:** Living Document  
+**Version:** 1.1  
+**Date:** December 1, 2025  
+**Status:** Updated with Research Validation  
 **Purpose:** Single source of truth for strategic, theoretical, and technical decisions
 
 ---
@@ -50,6 +50,12 @@ The most critical takeaway is the pivot from thinking of the project as a **Heal
 * **Semiotic Intelligence:** The output of the platform; the systematic, data-driven understanding of how meaning works across contexts, used to predict message failure.
 
 * **Computational Disaster Semiotics:** The new discipline we're establishing—applying AI/ML to semiotic analysis for crisis communication.
+
+* **Affective Semiosis:** Emotionally-driven meaning-making process that produces generalized interpretations under crisis conditions (Venuleo et al., 2020). Key mechanism explaining why semiotic breakdown occurs.
+
+* **Semiotic Capital:** Culturally-mediated symbolic resources that enable collective sense-making. The platform helps organizations build and deploy semiotic capital.
+
+* **Cultural Prompting:** Technique for improving AI alignment with local cultural contexts through context-aware input design. Research validates that simple prompt-tuning can improve cultural alignment of AI outputs.
 
 ### C. The Programmatic-First Strategy
 
@@ -101,7 +107,8 @@ Your differentiation is based on the combination of coordination and intelligenc
 | Competitor | What They Do | What They Miss |
 |:---|:---|:---|
 | DHIS2 | Tracks health data and outcomes | Doesn't capture *why* communication failed |
-| Everbridge/Noggin | Delivers messages quickly | Doesn't analyze if messages will be understood |
+| Everbridge | Delivers messages quickly | Doesn't analyze if messages will be understood |
+| Noggin | Resilience & incident management, integrated workspace | Logistics focus, no meaning-making capability, no cross-cultural learning |
 | Ushahidi | Reactive crisis mapping | No prediction or organizational coordination |
 | Translation Services | Word-to-word translation | Cultural meaning adaptation, not just translation |
 
@@ -147,6 +154,7 @@ The data architecture is designed to manage sensitive government/health data whi
 - **Quasar/Laravel:** Provides robust, enterprise-grade, performant, and secure foundation while allowing rapid cross-platform deployment for field officers.
 - **PostgreSQL + pgvector:** Critical for efficient vector similarity search of semiotic patterns.
 - **Python/FastAPI:** Separates ML concerns from business logic, enables high-performance model serving.
+- **ML Stack Design:** Designed for potential integration with multilingual medical corpora (MMedC) and domain-specific transformer architectures (Medical mT5, BEHRT) as foundation models, rather than relying solely on general-purpose language models.
 
 **Development Approach:** We use a **design-to-code workflow** rather than direct migration:
 
@@ -265,6 +273,7 @@ The disaster semiotics framing supports the visa application because it proves:
 | **Data Quality Issues** | High | Comprehensive field officer training; data validation checks |
 | **Scope Creep** | Medium | Theory of Change as North Star; strict governance |
 | **Ethical Risks (Manipulation/Privacy)** | Very High | Ethics board oversight; transparent AI; GDPR/NDPR compliance |
+| **Regulatory classification escalation** | Medium | Design for EU AI Act "limited risk"; build compliance flexibility; quarterly regulatory review |
 | **Funding Gaps** | High | Multiple funding sources; phased, lean approach |
 
 ---

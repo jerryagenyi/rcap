@@ -1,10 +1,10 @@
 # RCAP Technical Specification Document
 
-Version: 2.0
+Version: 2.1
 
-Date: November 30, 2025
+Date: December 1, 2025
 
-Status: Draft for Review
+Status: Updated with Research Validation
 
 Platform: Crisis Communication Intelligence Platform (RCAP)
 
