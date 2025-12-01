@@ -32,6 +32,26 @@ This document specifies the technical architecture, design patterns, and impleme
 
 Separation of Concerns, API-First, Data Sovereignty, Federated Learning, Security by Design, Offline-First (PWA).
 
+### 1.3 Design-to-Code Development Phases
+
+**Phase 1 - Prototype Validation (Next.js + Firebase):**
+- Functional prototype built in Firebase Studio for UX validation
+- Tests semiotic intelligence features with real users
+- Collects feedback and optimizes user experience
+- **Repository:** `rcap-firebase` (Next.js prototype)
+
+**Phase 2 - Design System Conversion (Figma):**
+- Convert validated prototype into comprehensive design system
+- Create Vue/Quasar-compatible component library
+- Design semiotic assessment UI patterns for production
+- **Output:** Component specifications for Vue implementation
+
+**Phase 3 - Production Build (Vue + Quasar + Laravel):**
+- Build production system from Figma specifications
+- Implement PostgreSQL + pgvector for semiotic pattern database
+- Deploy Python/FastAPI ML services for advanced analysis
+- **Repository:** `rcap-production` (Vue + Laravel + Python stack)
+
 
 
 ## 2. Technology Stack

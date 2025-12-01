@@ -174,11 +174,35 @@ Government agencies (WHO, NCDC) have strict requirements for **data sovereignty*
 
 ## 7. Development Workflow
 
-* **Git:** Git flow (`main` → `staging` → `develop` → `feature` branches).
+### 7.1 Design-to-Code Development Process
 
-* **CI/CD:** GitHub Actions for automated testing (PHPUnit, Jest, Cypress) and deployment.
+* **Phase 1 - Prototype Validation (Next.js + Firebase):**
+  - Build functional prototype in Firebase Studio to validate UX flows and semiotic intelligence features
+  - Collect user feedback and optimize experience before production development
+  - **Git Flow:** `prototype` → `staging` → `feature` branches in Firebase repository
 
-* **Monitoring:** Structured logging (Laravel), Error tracking (Sentry), Metrics (Datadog/Prometheus).
+* **Phase 2 - Design System (Figma):**
+  - Convert validated prototype into comprehensive design system and component library
+  - Create Vue/Quasar-compatible specifications with semiotic assessment patterns
+  - **Design Versioning:** Figma version control synchronized with development milestones
+
+* **Phase 3 - Production Build (Vue + Quasar + Laravel):**
+  - Build production system from Figma specifications (not migrating Next.js code)
+  - Implement PostgreSQL + pgvector for semiotic pattern database and Python/FastAPI ML services
+  - **Git Flow:** `main` → `staging` → `develop` → `feature` branches in production repository
+
+### 7.2 CI/CD Pipeline
+
+* **Automated Testing:** PHPUnit (backend), Jest (frontend), Cypress (E2E) for production code
+* **Automated Deployment:** GitHub Actions with staging and production environments
+* **Quality Gates:** Code coverage (>80%), security scans (SAST/DAST), performance benchmarks
+
+### 7.3 Monitoring & Observability
+
+* **Structured Logging:** Laravel logs with correlation IDs for debugging semiotic assessments
+* **Error Tracking:** Sentry integration for real-time error detection and alerting
+* **Performance Metrics:** Datadog/Prometheus for API response times, ML service latency, database performance
+* **User Analytics:** Semiotic assessment accuracy and user interaction patterns (anonymized)
 
 
 

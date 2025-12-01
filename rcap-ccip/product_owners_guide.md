@@ -22,6 +22,7 @@ This guide synthesises all strategic, theoretical, and technical decisions made 
 - Technical Architecture Document (v1.0) - Technical foundation
 - Product Requirements Document (v2.0) - Feature specifications
 - Technical Specification (v2.0) - Implementation details
+- PROTOTYPE_INTEGRATION_ANALYSIS.md - Design-to-code workflow
 
 ---
 
@@ -141,7 +142,24 @@ The data architecture is designed to manage sensitive government/health data whi
 - **PostgreSQL + pgvector:** Critical for efficient vector similarity search of semiotic patterns.
 - **Python/FastAPI:** Separates ML concerns from business logic, enables high-performance model serving.
 
-**Development Approach:** Build towards the **MVP (Minimum Viable Product)** features (e.g., Rule-Based Semiotic Assessment) in Phase 1, deferring complex features (e.g., full ML pattern extraction, geo-mapping) until pilot data is secured and validated.
+**Development Approach:** We use a **design-to-code workflow** rather than direct migration:
+
+1. **Phase 1 - Prototype Validation (Next.js + Firebase):**
+   - Build functional prototype in Firebase Studio to validate UX flows
+   - Test semiotic intelligence features with real users
+   - Collect feedback and optimize user experience
+
+2. **Phase 2 - Design System Conversion (Figma):**
+   - Convert validated prototype into comprehensive design system
+   - Create Vue/Quasar-compatible component library
+   - Design semiotic assessment patterns for production implementation
+
+3. **Phase 3 - Production Build (Vue + Quasar + Laravel):**
+   - Build production system from Figma specifications (not from Next.js code)
+   - Implement PostgreSQL + pgvector for semiotic pattern database
+   - Deploy Python/FastAPI ML services for advanced semiotic analysis
+
+Build towards the **MVP (Minimum Viable Product)** features (e.g., Rule-Based Semiotic Assessment) in Phase 1, deferring complex features (e.g., full ML pattern extraction, geo-mapping) until pilot data is secured and validated.
 
 ---
 

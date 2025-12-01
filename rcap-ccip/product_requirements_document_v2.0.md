@@ -120,7 +120,19 @@ Our **Moat:** Irreplicable semiotic pattern database that grows with every deplo
 
 
 
-### 3.2 Features Explicitly Excluded from MVP (Deferred to Phase 2)
+### 3.2 Feature Status Matrix (Prototype vs. Production)
+
+| Feature | Prototype Status | Production Status | Implementation Path |
+|---------|------------------|-------------------|-------------------|
+| **Multi-Tier Organization Management** | ✅ Complete | ⚠️ Migrate from Figma | Vue + Quasar components from design system |
+| **Activity Planning & Management** | ✅ Complete | ⚠️ Migrate from Figma | Enhanced with semiotic assessment UI |
+| **Semiotic Risk Assessment** | ⚠️ Framework only | ❌ New Implementation | PostgreSQL + pgvector + Python/FastAPI |
+| **Field Reporting & Evidence Collection** | ✅ Basic structure | ⚠️ Enhanced version | Add effectiveness metrics and pattern extraction |
+| **Role-Based Dashboards** | ✅ Complete | ⚠️ Migrate from Figma | Vue components with real-time analytics |
+| **Internal Communication System** | ✅ Complete | ⚠️ Migrate from Figma | Messaging and announcements modules |
+| **Pattern Database** | ❌ Not applicable | ❌ New Implementation | Core production infrastructure |
+
+### 3.3 Features Explicitly Excluded from MVP (Deferred to Phase 2)
 
 * ❌ Geographic Mapping Module
 
