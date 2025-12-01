@@ -14,6 +14,8 @@ Every year, thousands die not from lack of health information, but from communic
 
 The root cause isn't translation—it's **semiotic breakdown**: the collapse of shared meaning-making systems between message senders (governments, health agencies) and receivers (diverse communities) during crisis conditions. These failures cost lives, erode trust, and waste resources.
 
+**Evidence-based Innovation:** Our approach is validated through rigorous academic research methodology, building on established disaster semiotics theory while developing novel computational applications that demonstrate measurable impact in real-world crisis contexts.
+
 
 
 ## Our Solution: Computational Disaster Semiotics
@@ -43,6 +45,8 @@ We're the only platform that:
 * **Learns systematically** across crises and contexts, building an **irreplicable semiotic pattern database** (our moat).
 
 * **Bridges research + practice** (Disaster Semiotics theory → operational B2G tool).
+
+* **Validated through rigorous research:** Academic methodology ensures evidence-based development and peer-reviewed validation before commercialization.
 
 
 

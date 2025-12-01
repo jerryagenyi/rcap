@@ -136,11 +136,13 @@ These assumptions are testable and will be validated/adjusted through pilot depl
 ## 4. Inputs: What We Need
 ### 4.1 Financial Resources
 * **Phase 1 (Pilot/Research):** £250,000 - £400,000 over 18-24 months
-* **Sources:** UK Research & Innovation (UKRI), Wellcome Trust, EU Horizon, Bill & Melinda Gates Foundation.
+* **Funding Strategy:** Research grants aligned with innovation and impact priorities (UKRI, Wellcome Trust, EU Horizon, Gates Foundation), supplemented by strategic partnerships and in-kind contributions.
 
 ### 4.2 Human Capital
-* **Core Team (Phase 1):** Technical Lead, Public Health Advisor, Field Coordinators, Semiotics Researcher (Founder + PhD candidate).
+* **Core Team (Phase 1):** Technical Lead, Public Health Advisor, Field Coordinators, Semiotics Researcher (Founder with NCDC field experience and academic research background).
 * **Advisory Board:** Senior public health practitioners, disaster semiotics researchers, B2G SaaS experts.
+
+* **Research Foundation:** Our approach builds on established disaster semiotics theory while developing novel computational applications through rigorous academic methodology and peer-reviewed validation.
 
 ### 4.3 Technical Infrastructure
 * Development environment, ML training infrastructure (GPU access), Secure data storage (GDPR/NDPR compliant).

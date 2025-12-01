@@ -55,13 +55,19 @@ The most critical takeaway is the pivot from thinking of the project as a **Heal
 
 The decision to lead with a **Programme-First** approach is strategic:
 
-* **Programme (Years 1-2):** Grant-funded pilots (e.g., through UKRI, Wellcome) focused on validation and research.
+* **Programme (Years 1-2):** Research-validated pilots focused on rigorous validation and evidence generation. This approach ensures:
+  - Academic rigor through peer-reviewed methodology
+  - Evidence-based product development
+  - Credibility for B2G sales through validated case studies
+  - Reduced market risk through proven effectiveness
+
 * **Product (Years 3+):** Commercialization (B2G SaaS) using the **academic validation and case studies** generated in the programme phase as the primary sales collateral.
-* **Benefit:** Grants fund development (reducing early financial risk), and academic validation provides credibility for B2G sales (reducing market risk).
+
+* **Benefit:** Research validation funds development (reducing early financial risk), and academic validation provides credibility for B2G sales (reducing market risk).
 
 **Why This Matters:** This approach aligns with:
-- PhD research requirements (programme generates research data)
-- Innovator Founder Visa requirements (validated innovation pathway)
+- Research validation requirements (programme generates rigorous evidence)
+- Innovation validation pathways (validated innovation demonstrates market readiness)
 - Grant funder expectations (research + impact focus)
 - Commercial viability (proven case studies = easier B2G sales)
 
